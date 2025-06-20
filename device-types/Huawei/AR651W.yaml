@@ -27,14 +27,13 @@ interfaces:
     type: 1000base-t
   - name: GE7
     type: 1000base-t
-  - name: GE8
-    type: 1000base-t
-  - name: GE9
-    type: 1000base-t
-  - name: GE8_1G
-    type: 1000base-x-sfp
-  - name: GE9_1G
-    type: 1000base-x-sfp
   - name: Mgmt/Ge0
     type: 1000base-t
     mgmt_only: true
+module-bays:
+  - name: GE8
+    label: COMBO
+    position: 8
+  - name: GE9
+    label: COMBO
+    position: 9
